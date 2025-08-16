@@ -1,4 +1,4 @@
 run:
 	@clear
-	@mvn compile
-	@mvn exec:java
+	@mvn -q compile
+	@mvn -q exec:java
